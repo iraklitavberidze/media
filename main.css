@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+  background-color:#A3D9A5;
+  margin: 0;
+  padding: 0;
+
+}
+
+header{
+  display: flex;
+  background-color: white;
+  width: 2050px;
+  height: 150px;
+  position: absolute;
+  
+}
+
+ul{
+  display: flex;
+  margin-left: 200px;
+  margin-top: 50px;
+  gap: 15px ;
+  margin-top:  95px; ;
+
+}
+ul li {
+  list-style: none;
+
+}
+
+a{
+  text-decoration: none;
+  color: #092112;
+}
+
+ul li .home{
+  color: #0B6623;
+}
+.fine{
+  margin-left: 80px;
+  margin-top: 58px;
+}
+.line{
+  width: 417.12px;
+  line-height:12px;
+  
+  
+}
+
+
+h1{
+margin-top: 250px;
+margin-left: 75px;
+font-family: "Noto Sans Georgian", serif;
+font-weight: 300;
+font-size: 60px;
+
+
+
+
+}
+
+.color{
+  color:green;
+  font-family:"Noto Sans Georgian", serif;
+  font-weight: 300;
+  font-size: 60px;
+  
+}
+
+.line{
+  color: #0B6623;
+  line-height: 14px;
+  margin-bottom: 55px;
+  position:absolute;
+}
+
+p{
+  font-family:"Noto Sans Georgian", serif; 
+  font-size: 24px;
+  line-height: 33px;
+  margin-left: 70px;
+  position: relative;
+  margin-top: 50px;
+  
+ 
+}
+
+
+
+h4{
+  font-family: "Noto Sans Georgian", serif;
+  border: 2px solid #f1f1f1  ;
+  max-width: fit-content;
+  background-color: white;
+  margin-top: 50px;
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-left: 60px;
+  color:black ;
+  height: 33PX;
+  font-size: 18px;
+  font-size:medium ;
+
+  
+}
+
+h3{
+  font-family: "Noto Sans Georgian", serif;
+  width: 50PX;
+  background-color:#0B6623;
+  color: #f1f1f1;
+  margin-top: 50px;
+  width: 153px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #0B6623];  
+  height: 35PX;
+  font-size: medium;
+}
+
+.flex{
+  display: flex;
+  
+}
+section{
+  display: flex ;
+  flex-direction: row-reverse;
+  position: relative;
+}
+
+@media only screen and (max-width:768px);
+ {
+    .section2 {
+      flex-direction: row;
+    }
+  
+}
